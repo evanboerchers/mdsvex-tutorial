@@ -16,5 +16,11 @@
         <li>
             <a href='/frontmatter-sample'>Frontmatter Sample</a>
         </li>
+        <li>
+            <a href='/component-sample'>Component Sample</a>
+        </li>
+        <li>
+            <a href='/layout-sample'>Layout Sample</a>
+        </li>
     </ul>
 </div>

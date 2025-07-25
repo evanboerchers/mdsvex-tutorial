@@ -1,11 +1,11 @@
-# Similis circa pondere humus
+<script lang='ts'>
+    import Counter from '$lib/components/counter.svelte' 
+</script>
 
-## Partem terras comitavit ignaram ut parat Ladonis
+# Using svelte in SVX
 
-Lorem markdownum iactas. Ipse **vale** corpore quae armis, frustra locutum
-carinae.
+Svelte and markdown code can be written inline together in svx files. You can write svelte code just as you would inside any other other svelte file. This means that we can leverage all of Svelte's features like including svelte components inside our document. 
 
-Sede ulvis haec per tria perire quam saepe, deploravit tergum: ferarum. Thyoneus
-superavit aurea sequentia quercus, per texit; quaeque locis squamamque. Quae
-famem spe tegit putares motus desistere iniqui fugit, sic altique acrior
-detectique pendet.
+<Counter/>
+
+
