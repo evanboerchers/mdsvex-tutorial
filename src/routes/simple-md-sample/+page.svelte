@@ -2,4 +2,6 @@
     import Sample from '$lib/content/simple-md-sample.md'
 </script>
 
-<Sample />
+<div class='prose'>
+    <Sample />
+</div>

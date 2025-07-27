@@ -1,0 +1,12 @@
+---
+layout: article
+title: How to use frontmatter
+author: Fancy Dev 
+
+---
+
+# {title}
+
+## Frontmatter
+
+Frontmatter can be inserted at the top of our svx documents. It can be used inside our using **brackets** inside our document. Or it can be used when this svx file is imported as a svelte component. Simply import the `metadata` export when importing this file. 
