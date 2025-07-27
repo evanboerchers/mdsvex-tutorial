@@ -14,7 +14,10 @@ const config = {
 		}
 	)],
 	kit: {
-		adapter: adapter()
+		adapter: adapter(),
+		paths: {
+			base: '/mdsvex-tutorial'
+		},
 	},
 	extensions: ['.svelte', '.svx', '.md']
 };

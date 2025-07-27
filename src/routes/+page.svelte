@@ -1,5 +1,7 @@
 <script>
 	import { blogUrl } from "$lib";
+    import { base } from '$app/paths';
+
 
 </script>
 
@@ -11,16 +13,16 @@
     <h2>MDsveX page samples</h2>
     <ul>
         <li>
-            <a href='/simple-md-sample'>Simple Markdown Sample</a>
+            <a href={`${base}/simple-md-sample`}>Simple Markdown Sample</a>
         </li>
         <li>
-            <a href='/frontmatter-sample'>Frontmatter Sample</a>
+            <a href={`${base}/frontmatter-sample`}>Frontmatter Sample</a>
         </li>
         <li>
-            <a href='/component-sample'>Component Sample</a>
+            <a href={`${base}/component-sample`}>Component Sample</a>
         </li>
         <li>
-            <a href='/layout-sample'>Layout Sample</a>
+            <a href={`${base}/layout-sample`}>Layout Sample</a>
         </li>
     </ul>
 </div>
