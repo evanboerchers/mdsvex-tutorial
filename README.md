@@ -1,38 +1,56 @@
-# sv
+# MDsveX Tutorial
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+This repository contains a **SvelteKit** application demonstrating how to use [MDsveX](https://mdsvex.pngwn.io) to create and manage rich web content using Markdown and Svelte components.  
+It’s designed as a companion to my [blog post]({blogUrl}), which provides a full step-by-step guide to integrating and working with MDsveX.
 
-## Creating a project
+## 🚀 Live Demo
 
-If you're seeing this, you've probably already done this step. Congrats!
+You can explore the finished result here:  
+**[MDsveX Tutorial Site](https://evanboerchers.github.io/mdsvex-tutorial)**
+
+The live site showcases:
+
+- How Markdown and Svelte components can be combined seamlessly.
+- Practical examples of content structuring with MDsveX.
+- Styling and layout tips for MDsveX pages in a SvelteKit app.
+
+## 📂 What's Inside
+
+- **SvelteKit setup** pre-configured for MDsveX.
+- Example pages mixing that show how MDsvex can be used.
+  - Importing markdown files as svelte components
+  - Applying typography to text content
+  - Using frontmatter
+  - Using svelte code alongside markdown in svx files
+  - Using layouts to standardize document rendering
+
+## 🛠 Getting Started
+
+Clone the repo and install dependencies:
 
 ```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
+git clone https://github.com/evanboerchers/mdsvex-tutorial.git
+cd mdsvex-tutorial
+npm install
 ```
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
+Run development server:
 
 ```bash
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+Build for production:
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+```bash
+npm run build
+```
+
+Preview production build:
+
+```bash
+npm run preview
+```
+# 📖 Learn More
+
+For a deep dive into the concepts and setup, check out my full [MDsveX guide](https://evanboerchers.com/blog/2-simplify-svelte-site-content-with-mdsvex).
